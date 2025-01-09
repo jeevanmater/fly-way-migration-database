@@ -11,6 +11,7 @@ public class FlyWayController {
     @GetMapping(value = "/fly")
     public String flyway(){
         System.out.println("Hello fly way...");
+        System.out.println("Hello fly way2...!");
         return "Hello flyway Controller.....!";
     }
 }
