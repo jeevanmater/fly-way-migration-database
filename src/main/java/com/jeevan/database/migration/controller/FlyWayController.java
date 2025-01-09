@@ -10,6 +10,7 @@ public class FlyWayController {
 
     @GetMapping(value = "/fly")
     public String flyway(){
+        System.out.println("Hello fly way...");
         return "Hello flyway Controller.....!";
     }
 }
