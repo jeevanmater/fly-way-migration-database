@@ -9,6 +9,7 @@ public class HelloWorld {
 
     @Autowired
     public HelloWorld(FlyWayController flyWayController) {
+        System.out.println("This is related to new branch code.....!");
         this.flyWayController = flyWayController;
     }
 }
